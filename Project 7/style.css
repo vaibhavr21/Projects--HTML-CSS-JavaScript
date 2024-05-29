@@ -62,3 +62,27 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
     margin: 0;
 
 }
+
+button{
+
+    background-color: #4caf50;
+
+    color: #fff;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+button:hover{
+
+    background-color: #45a049;
+
+}
