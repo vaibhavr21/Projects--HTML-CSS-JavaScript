@@ -61,3 +61,40 @@ body{
     }
 
 }
+h3, button{
+
+    padding: 1rem;
+
+
+
+}
+
+h3{
+
+    font-size: 1.5rem;
+
+    color: ghostwhite;
+
+}
+
+button{
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    outline: none;
+
+    border: none;
+
+    border-radius: 2px;
+
+    background-color: #4caf50;
+
+    color: #fff;
+
+    transition: background 0.3s ease;
+
+
+
+}
