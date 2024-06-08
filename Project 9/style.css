@@ -98,3 +98,34 @@ button{
 
 
 }
+button:hover{
+
+    background-color: #117d9e;
+
+    color: #e4f316;
+
+}
+
+.message{
+
+    margin: 1rem;
+
+    padding: 1rem;
+
+    background-color: greenyellow;
+
+    color: #000;
+
+    border-radius: 5px;
+
+    transition: ease-in-out;
+
+    opacity: 0;
+
+}
+
+.after-clicked{
+
+    opacity: 1;
+
+}
