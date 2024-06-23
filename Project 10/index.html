@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copy to Clipboard</title>
+    <title>Coin Flip Animation</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h3 id="main_paragraph">Yes, it is true, You can Copy the Text, Just Click on the Button to Copy the text.</h3>
-    <button id="copy">Copy to Clipboard</button>
-    <p id="message" class="message"></p>
+    <div class="container">
+        <div id="coin" class="">
+            <div id="head" class="headsClass"></div>
+            <div id="tails" class="tailsClass"></div>
+        </div>
+
+        <button id="flip">Flip the Coin</button>
+        <p>Heads: <span id="headCount">0</span> Tails: <span id="tailsCount">0</span> </p>
+
+        <p><span id="status"></span></p>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
