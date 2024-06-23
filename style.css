@@ -307,19 +307,15 @@ nav li:hover {
 
 
 .card {
-
   width: 320px;
-
   display: flex;
-
   flex-direction: column;
-
   border-radius: 0.5rem;
-
   overflow: hidden;
-
   transition: 0.2s ease-in-out;
-
+  border-radius: 26px;
+  background: linear-gradient(145deg, #00ffff, #00e6e6);
+  box-shadow: 5px 5px 0px #006666, -5px -5px 0px #00ffff;
 }
 
 .card:hover {
