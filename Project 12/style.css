@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #6c0aed;
+}
+
+.wrapper{
+    background-color: #ffffff;
+    position: absolute;
+    width: 80vw;
+    max-width: 41em;
+    min-height: 25em;
+    border-radius: 0.6em;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0.1 0.8em 3em rgba(1, 17, 39, 0.15);
+    display: flex;
+}
