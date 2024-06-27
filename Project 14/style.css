@@ -44,7 +44,6 @@ nav{
   
   .toggleBtn:hover{
       color: #e74c3c;
-      transform: rotate(90deg);
   }
   
   .links{
