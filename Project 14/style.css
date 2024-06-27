@@ -32,3 +32,31 @@ nav{
     align-items: center;
     padding: 1rem;
 }
+.toggleBtn {
+    font-size: 1.5rem;
+    color: #ecf0f1;
+    background: transparent;
+    border-color: transparent;
+    border: none;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  
+  .toggleBtn:hover{
+      color: #e74c3c;
+      transform: rotate(90deg);
+  }
+  
+  .links{
+      height: 0;
+      overflow: hidden;
+      transition: all 0.3s linear;
+  }
+  
+  .links a{
+      color: #ecf0f1;
+      text-transform: capitalize;
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s linear;
+  }
