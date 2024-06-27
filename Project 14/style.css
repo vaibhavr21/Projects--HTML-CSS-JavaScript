@@ -60,3 +60,12 @@ nav{
       padding: 0.5rem 1rem;
       transition: all 0.3s linear;
   }
+  .links a:hover{
+    background: #2980b9;
+    color: #fff;
+    padding-left: 1.5rem;
+}
+
+.active{
+    height: 13rem;
+}
