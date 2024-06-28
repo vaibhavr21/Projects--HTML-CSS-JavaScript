@@ -36,3 +36,23 @@ body{
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     animation: pulse 1.5s infinite alternate;
 }
+@keyframes pulse {
+    from{
+        transform: scale(1);
+    }
+    
+    to{
+        transform: scale(1.05);
+    }
+}
+
+.timer span{
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+}
+
+.contorls{
+    display: flex;
+    gap: 1rem;
+}
