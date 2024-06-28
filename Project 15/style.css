@@ -56,3 +56,17 @@ body{
     display: flex;
     gap: 1rem;
 }
+button{
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #3ea5b8;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:   background-color 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: #0980e2;
+}
