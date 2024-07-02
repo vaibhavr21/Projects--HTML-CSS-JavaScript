@@ -48,4 +48,16 @@ textarea{
     border: 1px solid #dddddd;
     border-radius: 5px;
     resize: none;
+    animation: slideIn 1s ease; 
+}
+@keyframes slideIn {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
 }
