@@ -79,3 +79,11 @@ button{
 button:hover{
     background-color: #33022b;
 }
+
+#result{
+    font-size: 20px;
+    margin-top: 20px;
+    color: azure;
+    font-weight: bold;
+    animation: neonGlow 1s infinite alternate;
+}
