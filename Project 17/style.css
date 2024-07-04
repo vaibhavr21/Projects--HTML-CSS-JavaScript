@@ -20,3 +20,15 @@ section{
 div{
     position: relative;
 }
+#rangeValue{
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 6rem;
+    font-weight: 800;
+    z-index: 1;
+    color: #ff0000;
+}
+#rangeValue::after{
+    content: "%";
+}
