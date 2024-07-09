@@ -112,5 +112,18 @@ button:hover{
     margin-left: 20px;
     border-radius: 5px;
     overflow: hidden;
+}
+.bar{
 
+    height: 100%;
+    background-color: #2207bd;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.percentage{
+    flex: 1;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #053a66;
 }
