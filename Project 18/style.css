@@ -32,3 +32,12 @@ h1{
     font-size: 32px;
     opacity: 1;    
 }
+.poll{
+    margin-top: 20px;
+}
+
+h2{
+    color: #7522d3;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
