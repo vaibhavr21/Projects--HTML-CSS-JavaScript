@@ -72,3 +72,17 @@ label{
     cursor: pointer;
     transition: background-color 0.3s;
 }
+button{
+    background-color: #ec5d09;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #35ad53;
+}
