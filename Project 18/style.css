@@ -101,3 +101,16 @@ button:hover{
     margin-bottom: 10px;
     width: 100%;
 }
+.option-text{
+    flex: 1;
+}
+
+.bar-container{
+    flex: 3;
+    background-color: #f3f3f3;
+    height: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
