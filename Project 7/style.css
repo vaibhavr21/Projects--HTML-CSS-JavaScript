@@ -17,7 +17,6 @@ body{
 .input-container{
     margin-bottom: 15px;
 }
-
 input{
     width: 100%;
     padding: 8px;
@@ -42,7 +41,6 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
-
 button:hover{
     background-color: #45a049;
 }
