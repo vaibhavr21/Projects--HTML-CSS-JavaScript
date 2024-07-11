@@ -1,35 +1,20 @@
 *{
-
     box-sizing: border-box;
-
     margin: 0;
-
     padding: 0;
-
     font-family: sans-serif;
-
 }
 
 body{
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     min-height: 100vh;
-
     text-align: center;
-
     flex-direction: column;
-
     background: linear-gradient(145deg, rgb(43, 246, 185), rgb(92, 119, 240), rgb(167, 13, 167), rgb(237, 22, 151), rgb(64, 92, 249), rgb(176, 13, 201));
-
     background-size: 200%;
-
     animation: backgroundPro 20s infinite;
-
 }
 
 @keyframes backgroundPro {
