@@ -46,11 +46,7 @@ button{
     border-radius: 2px;
     background-color: #4caf50;
     color: #fff;
-
     transition: background 0.3s ease;
-
-
-
 }
 button:hover{
 
