@@ -12,8 +12,7 @@ section{
     position: relative;
     background: linear-gradient(90deg, #ff4757 0%, #00d2ff 50%, #ff4757 100%);
     overflow: hidden;
-}   
-
+} 
 section h1{
     position: relative;
     text-align: center;
