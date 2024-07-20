@@ -25,6 +25,7 @@ section h1 span{
     display: inline-block;
 
 }
+
 section h1 span.active{
     animation: smoke 2s linear forwards;
     transform-origin: bottom;
